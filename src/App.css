@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* my app*/
+.nav
+{
+  background-color: #F55A5A;
+  height: 2cm;
+  width:40.2cm;
+}
+body{
+  background-color:whitesmoke;
+}
+.name
+{
+  color: rgb(250, 250, 250);
+  margin-left: 16cm;
+  margin-top: -.8cm;
+  text-align: center;
+  width:200px;
+  font-family: 'Inter';
+font-style: normal;
+}
+.img
+{
+  margin-left: 15.5cm;
+  margin-top: .6cm;
+  
+  width:30px;
+}
+.pl1--img
+{
+  margin-top: 1.5cm;
+  margin-left: -1cm;
+  width:180px;
+  border-radius: 1em;
+}
+.loc--img
+{
+  
+  width: 20px;
+}
+.loc--name
+{
+  margin-top: 2.5cm;
+  font-family: 'Inter';
+font-style: normal;
+}
+.link{
+  
+  font-size: small;
+  color: #918E9B;
+
+  
+}
+.place--name
+{
+  
+font-family: 'Inter';
+font-style: normal;
+}
+.date
+{
+  font-weight: bold;
+  font-family: 'Inter';
+  font-style: normal; 
+}
+.about{
+  font-family: 'Inter';
+  font-style: normal; 
+}
+.line
+{
+  position: relative;
+width: 800px;
+height: 0px;
+left: 10cm;
+
+color:  #979292;
+
+}
